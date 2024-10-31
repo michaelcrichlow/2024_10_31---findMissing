@@ -4,9 +4,6 @@ import "core:fmt"
 import "core:slice"
 print :: fmt.println
 
-
-DEBUG_MODE :: true
-
 main :: proc() {
 
 	print(findMissing([]int{3, 0, 1}))
